@@ -1,0 +1,23 @@
+{
+    "name": "vaalyn/brg-flarum-bbcodes",
+    "description": "BBcodes für das Forum des Brony Radio Germany",
+    "type": "flarum-extension",
+    "require": {
+        "flarum/core": "^0.1.0-beta.8"
+    },
+    "autoload": {
+        "psr-4": {
+			"BRG\\Flarum\\BBCodes": "src/"
+		}
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "BRG Flarum BBCodes",
+            "icon": {
+                "name": "fas fa-code",
+                "backgroundColor": "#5f0a10",
+                "color": "#fff"
+            }
+        }
+    }
+}
