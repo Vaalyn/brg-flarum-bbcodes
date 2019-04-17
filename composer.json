@@ -7,7 +7,7 @@
     },
     "autoload": {
         "psr-4": {
-			"BRG\\Flarum\\BBCodes": "src/"
+			"BRG\\Flarum\\BBCodes\\": "src/"
 		}
     },
     "extra": {
